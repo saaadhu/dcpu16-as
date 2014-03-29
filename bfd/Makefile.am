@@ -100,6 +100,7 @@ ALL_MACHINES = \
 	cpu-crx.lo \
 	cpu-d10v.lo \
 	cpu-d30v.lo \
+	cpu-dcpu16.lo \
 	cpu-dlx.lo \
 	cpu-epiphany.lo \
 	cpu-fr30.lo \
@@ -185,6 +186,7 @@ ALL_MACHINES_CFILES = \
 	cpu-crx.c \
 	cpu-d10v.c \
 	cpu-d30v.c \
+	cpu-dcpu16.c \
 	cpu-dlx.c \
 	cpu-epiphany.c \
 	cpu-fr30.c \

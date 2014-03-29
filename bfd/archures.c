@@ -488,6 +488,8 @@ DESCRIPTION
 .#define bfd_mach_aarch64_ilp32	32
 .  bfd_arch_nios2,
 .#define bfd_mach_nios2	0
+.  bfd_arch_dcpu16
+.#define bfd_mach_dcpu16 0
 .  bfd_arch_last
 .  };
 */
@@ -544,6 +546,7 @@ extern const bfd_arch_info_type bfd_cris_arch;
 extern const bfd_arch_info_type bfd_crx_arch;
 extern const bfd_arch_info_type bfd_d10v_arch;
 extern const bfd_arch_info_type bfd_d30v_arch;
+extern const bfd_arch_info_type bfd_dcpu16_arch;
 extern const bfd_arch_info_type bfd_dlx_arch;
 extern const bfd_arch_info_type bfd_epiphany_arch;
 extern const bfd_arch_info_type bfd_fr30_arch;
@@ -634,6 +637,7 @@ static const bfd_arch_info_type * const bfd_archures_list[] =
     &bfd_crx_arch,
     &bfd_d10v_arch,
     &bfd_d30v_arch,
+    &bfd_dcpu16_arch,
     &bfd_dlx_arch,
     &bfd_epiphany_arch,
     &bfd_fr30_arch,
