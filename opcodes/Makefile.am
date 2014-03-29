@@ -120,6 +120,7 @@ TARGET_LIBOPCODES_CFILES = \
 	d10v-opc.c \
 	d30v-dis.c \
 	d30v-opc.c \
+	dcpu16-dis.c \
 	dlx-dis.c \
 	epiphany-asm.c \
 	epiphany-desc.c \
