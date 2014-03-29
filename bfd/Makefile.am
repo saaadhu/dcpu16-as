@@ -325,6 +325,7 @@ BFD32_BACKENDS = \
 	elf32-crx.lo \
 	elf32-d10v.lo \
 	elf32-d30v.lo \
+	elf32-dcpu16.lo \
 	elf32-dlx.lo \
 	elf32-epiphany.lo \
 	elf32-fr30.lo \
@@ -514,6 +515,7 @@ BFD32_BACKENDS_CFILES = \
 	elf32-crx.c \
 	elf32-d10v.c \
 	elf32-d30v.c \
+	elf32-dcpu16.c \
 	elf32-dlx.c \
 	elf32-epiphany.c \
 	elf32-fr30.c \
