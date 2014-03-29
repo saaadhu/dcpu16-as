@@ -404,6 +404,10 @@ case "${targ}" in
   d10v-*-*)
     targ_defvec=bfd_elf32_d10v_vec
     ;;
+  
+  dcpu16-*-*)
+    targ_defvec=bfd_elf32_dcpu16_vec
+    ;;
 
   dlx-*-elf*)
     targ_defvec=bfd_elf32_dlx_big_vec

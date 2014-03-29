@@ -984,6 +984,8 @@ case "${target}" in
   d30v-*-*)
     noconfigdirs="$noconfigdirs gdb"
     ;;
+  dcpu16-*-*)
+    ;;
   fr30-*-elf*)
     noconfigdirs="$noconfigdirs gdb"
     ;;

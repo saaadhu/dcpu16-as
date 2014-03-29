@@ -23,7 +23,7 @@
 #include "bfd.h"
 #include "libbfd.h"
 
-static const bfd_arch_info_type* compatible(const bfd_arch_info_type *a, const bfd_arch_info_type *b)
+static const bfd_arch_info_type* compatible(const bfd_arch_info_type *a ATTRIBUTE_UNUSED, const bfd_arch_info_type *b ATTRIBUTE_UNUSED)
 {
   /* We have only one machine, so just return one of the incoming params */
   return a;

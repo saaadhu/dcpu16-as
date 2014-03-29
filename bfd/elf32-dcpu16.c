@@ -26,6 +26,20 @@
 #include "elf-bfd.h"
 #include "elf/dcpu16.h"
 
+static reloc_howto_type *
+bfd_elf32_bfd_reloc_type_lookup (bfd * abfd ATTRIBUTE_UNUSED,
+				 bfd_reloc_code_real_type code ATTRIBUTE_UNUSED)
+{
+  return NULL;
+}
+
+static reloc_howto_type *
+bfd_elf32_bfd_reloc_name_lookup (bfd *abfd ATTRIBUTE_UNUSED,
+				 const char *r_name ATTRIBUTE_UNUSED)
+{
+  return NULL;
+}
+
 
 #define ELF_ARCH		bfd_arch_dcpu16
 #define ELF_MACHINE_CODE	EM_DCPU16
